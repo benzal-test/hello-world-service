@@ -52,7 +52,7 @@ image: alpine:latest
 
 variables:
   # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
-  KUBE_INGRESS_BASE_DOMAIN: test.nagyv.com
+  KUBE_INGRESS_BASE_DOMAIN: 74.220.23.215.nip.io
   KUBE_CONTEXT: "gitlab-examples/ops/gitops-demo/k8s-agents:demo-agent"
   KUBE_NAMESPACE: "demo-agent"
 
