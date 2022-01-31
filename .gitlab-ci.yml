@@ -60,7 +60,7 @@ contexts:
 
 variables:
   # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
-  # KUBE_INGRESS_BASE_DOMAIN: domain.example.com
+  KUBE_INGRESS_BASE_DOMAIN: test.nagyv.com
   KUBE_CONTEXT: "gitlab-examples/ops/gitops-demo/k8s-agents:demo-agent"
   KUBE_NAMESPACE: "demo-agent"
 
