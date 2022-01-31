@@ -84,8 +84,6 @@ variables:
   #POSTGRES_PASSWORD: testing-password
   #POSTGRES_DB: $CI_ENVIRONMENT_SLUG
   POSTGRES_ENABLED: "false"
-  STAGING_ENABLED: "false"
-  CANARY_ENABLED: "false"
 
   DOCKER_DRIVER: overlay2
 
