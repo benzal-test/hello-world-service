@@ -78,7 +78,6 @@ variables:
   CONTAINER_SCANNING_DISABLED: "true"
   DAST_DISABLED: "true"
   REVIEW_DISABLED: "true"
-  REVIEW_DISABLED: "true"
   CODE_INTELLIGENCE_DISABLED: "true"
   #POSTGRES_USER: user
   #POSTGRES_PASSWORD: testing-password
