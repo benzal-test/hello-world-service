@@ -1,6 +1,14 @@
 include:
   template: Auto-DevOps.gitlab-ci.yml
 
+ deploy:
+   stage: build
+   image:
+     name: bitnami/kubectl:latest
+     entrypoint: [""]
+   script:
+   - kubectl config get-contexts
+
 variables:
   # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
   KUBE_INGRESS_BASE_DOMAIN: 74.220.23.215.nip.io
