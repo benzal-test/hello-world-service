@@ -10,8 +10,8 @@ contexts:
    - kubectl config get-contexts
 
 list pods:
-  stage: .pre
-  image:
+   stage: .pre
+   image:
      name: bitnami/kubectl:latest
      entrypoint: [""]
    script:
