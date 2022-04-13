@@ -16,7 +16,7 @@ list pods:
      entrypoint: [""]
    script:
    - kubectl config use-context gitlab-examples/ops/gitops-demo/k8s-agents-private:demo-agent
-   - kubectl get pods --all-namespaces
+   - kubectl get pods -n gitlab-kubernetes-agent
 
 variables:
   # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
