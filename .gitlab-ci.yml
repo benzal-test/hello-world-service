@@ -1,7 +1,7 @@
 include:
   template: Auto-DevOps.gitlab-ci.yml
 
- deploy:
+deploy:
    stage: build
    image:
      name: bitnami/kubectl:latest
