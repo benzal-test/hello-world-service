@@ -2,6 +2,7 @@ include:
   template: Auto-DevOps.gitlab-ci.yml
 
 variables:
+  # KUBE_CONTEXT variable is set under Settings / CI/CD as an environment variables to allow targeting different environments.
   # KUBE_INGRESS_BASE_DOMAIN is the application deployment domain and should be set as a variable at the group or project level.
   KUBE_INGRESS_BASE_DOMAIN: 74.220.23.215.nip.io
   KUBE_NAMESPACE: "demo-agent"
